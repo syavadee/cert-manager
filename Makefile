@@ -16,9 +16,9 @@
 ###############
 
 # Set DOCKER_REGISTRY to customise the image docker repo, e.g. "quay.io/jetstack"
-DOCKER_REGISTRY :=
+DOCKER_REGISTRY := quay.io/unitedthinkers
 # Set APP_VERSION to customize the image tag, eg "v0.0.5-dev"
-APP_VERSION :=
+APP_VERSION := v1.7.2-syavadee
 # Set the target platform to build for. Defaults to linux/amd64
 PLATFORM := @io_bazel_rules_go//go/toolchain:linux_amd64
 
